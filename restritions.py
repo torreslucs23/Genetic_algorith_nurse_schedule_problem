@@ -77,7 +77,11 @@ def restrition3(m):
 #restrition4: Nurses prefer consistency in their schedules,
 #  meaning they prefer working the same shift (day, night, or overnight) 
 # every day of the week.
-# the 
+
+
+# Each shift was separated into a distinct count. The algorithm takes the total count for a nurse and subtracts it from the shift
+#  that had the highest occupancy for that nurse.
+#  The result is multiplied by the fitness value and accumulated for the rest of the nurses.
 def restrition4(m):
     fit = 0
     for nurse in m:
