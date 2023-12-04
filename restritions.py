@@ -77,8 +77,29 @@ def restrition3(m):
 #restrition4: Nurses prefer consistency in their schedules,
 #  meaning they prefer working the same shift (day, night, or overnight) 
 # every day of the week.
-                
+# the 
+def restrition4(m):
+    fit = 0
+    for nurse in m:
+        total = 0
+        cont = [0,0,0]
+        for n_shift in range(0, len(nurse), 3):
+            if nurse[n_shift] == 1:
+                cont[0] += 1
+                total+=1
+            if nurse[n_shift+1] == 1:
+                cont[1] += 1
+                total+=1
+            if nurse[n_shift+2] == 1:
+                cont[2] += 1
+                total += 1
+        biggest = max(cont)
+        fit = fit - ((total - biggest) * -0.3)
+    return fit
+
 
 m = [[1,1,1,1,1,1,1,1,1,1], [1,1,0,1,1,0,0,0,0,1], [1,1,0,1,0,1,1,1,1,1], [1,1,0,1,1,1,0,0,1,0]]
 
-print(restrition3(m))
+n = [[0,1,0,0,1,0], [1,1,0,1,1,0], [1,0,0,0,0,1]]
+
+print(restrition4(n))
