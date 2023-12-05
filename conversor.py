@@ -19,4 +19,5 @@ def revert_to_string(m):
             s.append(str(w))
     return ''.join(s)
 
-print (revert_to_string((convert_to_matrix(s))))
+#print (revert_to_string((convert_to_matrix(s))))
+#print (convert_to_matrix(s))
