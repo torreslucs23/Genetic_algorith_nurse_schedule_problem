@@ -13,6 +13,7 @@ def generate_population(n_individual,k, n):
                 num = randint(0,1)
                 individual.append(str(num))
         population.append(''.join(individual))
+    print(population)
     return population
         
 
@@ -23,7 +24,7 @@ def mutation0(n_mutation, chromosome):
         return chromosome
     
     chrom = [i for i in chromosome]
-    index = randint(0,20)
+    index = randint(0, len(chromosome) - 1)
     if chrom[index] == '0':
         chrom[index] = '1'
 
@@ -41,7 +42,7 @@ def mutation1(n_mutation, population):
     n_chroms = int(n_mutation*l_popu/100)
     for i in range(n_chroms):
         new_chrom = [w for w in population[l[i]]]
-        n = randint(0,20)
+        n = randint(0,len(population[l[i]]) - 1)
         if new_chrom[n] == '0':
             new_chrom[n] = '1'
 
@@ -55,7 +56,7 @@ def mutation1(n_mutation, population):
 
 
 
-print(generate_population(5,3,3))
+print(mutation1( 100, generate_population(3, 3, 3)))
 
 
 #print(generate_population(100))
