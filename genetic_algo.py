@@ -53,10 +53,37 @@ def mutation1(n_mutation, population):
     return population
 
         
+def cross1(chrom1, chrom2):
+    half = len(chrom1) // 2
+    new_chrom1 = []
+    new_chrom2 = []
+    for i in range(0, half):
+        new_chrom1.append(chrom2[i])
+        new_chrom2.append(chrom1[i])
+
+    for i in range(half, len(chrom1)):
+        new_chrom1.append(chrom1[i])
+        new_chrom2.append(chrom2[i])
+    return ''.join(new_chrom1), ''.join(new_chrom2)
+
+def cross2(chrom1, chrom2):
+    new_chrom1 = []
+    new_chrom2 = []
+
+    for i in range(len(chrom1)):
+        p = randint(0,1)
+        if p == 0:
+            new_chrom1.append(chrom1[i])
+            new_chrom2.append(chrom2[i])
+        else:
+            new_chrom1.append(chrom2[i])
+            new_chrom2.append(chrom1[i])
+    return ''.join(new_chrom1), ''.join(new_chrom2)
 
 
 
-print(mutation1( 100, generate_population(3, 3, 3)))
+
+print(cross2('100111', '111011'))
 
 
 #print(generate_population(100))
