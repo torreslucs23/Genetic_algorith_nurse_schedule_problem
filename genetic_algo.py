@@ -3,13 +3,15 @@ from conversor import *
 from random import randint, shuffle
 
 #this function generate all individuals of a population
-def generate_population(n_individual):
+#k = nurses n = shifts
+def generate_population(n_individual,k, n):
     population = []
     for i in range(n_individual):
         individual = []
-        for w in range(21):
-            n = randint(0,1)
-            individual.append(str(n))
+        for w in range(k):
+            for j in range(n):
+                num = randint(0,1)
+                individual.append(str(num))
         population.append(''.join(individual))
     return population
         
@@ -53,7 +55,7 @@ def mutation1(n_mutation, population):
 
 
 
-print(mutation1(50, generate_population(5)))
+print(generate_population(5,3,3))
 
 
 #print(generate_population(100))
