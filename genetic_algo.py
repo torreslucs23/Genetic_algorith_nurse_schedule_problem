@@ -31,6 +31,7 @@ def mutation0(n_mutation, chromosome):
     return ''.join(chrom)
 
 #Function that selects a random individual from the population and performs mutation
+#note that rate is rounded to its integer value
 def mutation1(n_mutation, population):
     l_popu = len(population)
     l = [i for i in range(l_popu)]

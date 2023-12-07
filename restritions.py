@@ -11,6 +11,7 @@
 def restrition1(m):
     fit = 0
 
+
     for n_shift in range(len(m[0])):
         cont = 0
 
@@ -87,16 +88,17 @@ def restrition4(m):
     for nurse in m:
         total = 0
         cont = [0,0,0]
-        for n_shift in range(0, len(nurse), 3):
+        for n_shift in range(0, len(nurse)):
             if nurse[n_shift] == 1:
-                cont[0] += 1
-                total+=1
-            if nurse[n_shift+1] == 1:
-                cont[1] += 1
-                total+=1
-            if nurse[n_shift+2] == 1:
-                cont[2] += 1
-                total += 1
+                if n_shift%3==0:
+                    cont[0] += 1
+                    total+=1
+                elif n_shift%3 == 1:
+                    cont[1] +=1
+                    total+=1
+                else:
+                    cont[2]+=1
+                    total+=1
         biggest = max(cont)
         fit = fit - ((total - biggest) * -0.3)
     return fit
@@ -104,6 +106,6 @@ def restrition4(m):
 
 m = [[1,1,1,1,1,1,1,1,1,1], [1,1,0,1,1,0,0,0,0,1], [1,1,0,1,0,1,1,1,1,1], [1,1,0,1,1,1,0,0,1,0]]
 
-n = [[0,1,0,0,1,0], [1,1,0,1,1,0], [1,0,0,0,0,1]]
+n = [[0,1,0,0,1,0], [1,0,0,1,0,0], [0,0,1,0,0,1]]
 
-#print(restrition4(n))
+print(restrition4(n))
