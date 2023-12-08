@@ -3,6 +3,7 @@ import numpy as np
 from handler import *
 from parameters import *
 
+
 test_cases_parameters   = build_tests_parameter()
 total_test_cases        = len(test_cases_parameters)
 
@@ -18,6 +19,8 @@ for i in range(number_of_iterations):
 
         count += 1
 
+
+np.random.seed(19680801) # Fixing the randomness
 
 colors              = np.random.rand(total_test_cases)
 samples_and_colors  = zip(samples_by_parameters, colors)
