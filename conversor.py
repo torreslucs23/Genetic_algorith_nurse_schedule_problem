@@ -1,11 +1,11 @@
 
 #tranform string in matrix
-def convert_to_matrix(s):
+def convert_to_matrix(s, k, n):
     matrix = []
 
-    for i in range(0,len(s), 7):
+    for i in range(0,len(s), n):
         l =[]
-        l = [int(s[w]) for w in range(i, i+7)]
+        l = [int(s[w]) for w in range(i, i+n)]
         matrix.append(l)
     return matrix
 
@@ -21,3 +21,6 @@ def revert_to_string(m):
 
 #print (revert_to_string((convert_to_matrix(s))))
 #print (convert_to_matrix(s))
+
+#s = '101001'
+#print(convert_to_matrix(s, 6,1))

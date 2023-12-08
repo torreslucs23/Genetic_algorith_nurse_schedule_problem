@@ -21,7 +21,7 @@ def restrition1(m):
         if cont < 1:
             fit += 1
         elif cont > 3:
-            fit = cont - 3
+            fit -= 1
     return fit*-1
 
 
@@ -100,7 +100,7 @@ def restrition4(m):
                     cont[2]+=1
                     total+=1
         biggest = max(cont)
-        fit = fit - ((total - biggest) * -0.3)
+        fit = fit - ((total - biggest) * 0.2)
     return fit
 
 

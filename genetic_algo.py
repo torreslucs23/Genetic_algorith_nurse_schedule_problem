@@ -1,6 +1,7 @@
 from restritions import *
 from conversor import *
 from random import randint, shuffle
+from math import ceil, floor
 
 #this function generate all individuals of a population
 #k = nurses n = shifts
@@ -83,8 +84,9 @@ def cross2(chrom1, chrom2):
 
 
 #function calculate_fit test all restritions
-def calculate_fit(chrom):
+def calculate_fit(chrom, k, n):
     fit = 0
+    chrom = convert_to_matrix(chrom, k, n)
 
     restritions = [restrition1, restrition2, restrition3, restrition4]
 
@@ -96,7 +98,7 @@ def calculate_fit(chrom):
 
 
 
-print(cross2('100111', '111011'))
+#print(cross2('100111', '111011'))
 
 
 #print(generate_population(100))
@@ -111,31 +113,71 @@ print(cross2('100111', '111011'))
 
 
 
-def genetic1(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, n, k):
+def genetic1(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, k, n):
     if t_crossover == 0:
         cross = cross1
     else:
         cross = cross2
 
-    if t_mutation == 0:
-        mutation = mutation0
-    else:
-        mutation = mutation1
     
     for i in range(n_iterations):
         cross_population = []
         fit_cross_population = []
+        fit_population = []
 
-        if len(population) % 2 == 0:
-            for w in range(0, len(population), 2):
-                chrom1 = population[w]
-                chrom2 = population[w+1]
+        #make the mutation
+        if t_mutation == 0:
+            for w in range(len(population)):
+                population[w] = mutation0(n_mutation, population[w])
+        else:
+            population = mutation1(n_mutation, population)
 
-                chrom1, chrom2 = cross(chrom1, chrom2)
+        for w in range(0, len(population), 2):
 
-                cross_population.append(chrom1)
-                cross_population.append(chrom2)
+            #odd population number case
+            if w == len(population)- 1:
+                cross_population.append(population[w])
+                fit_cross_population.append([calculate_fit(population[w], k, n), w])
 
-                fit_cross_population.append()
+                fit_population.append([calculate_fit(population[w], k, n), w])
+                break
 
+            #take the chroms
+            chrom1 = population[w]
+            chrom2 = population[w+1]
 
+            chrom1, chrom2 = cross(chrom1, chrom2)
+
+            cross_population.append(chrom1)
+            cross_population.append(chrom2)
+
+            fit_cross_population.append([calculate_fit(chrom1, k, n), w])
+            fit_cross_population.append([calculate_fit(chrom2, k, n), w+1])
+
+            fit_population.append([calculate_fit(population[w], k, n), w])
+            fit_population.append([calculate_fit(population[w+1], k, n), w+1])
+
+        #this piece of code do the elitsm
+        fit_cross_population.sort()
+        fit_cross_population.reverse()
+        fit_population.sort()
+        fit_population.reverse()
+        new_population = []
+
+        number_elitsm = ceil(n_elitism*len(population)/100)
+        for i in range(number_elitsm):
+            new_population.append(population[fit_population[i][1]])
+
+        number_elitsm = floor((100 - n_elitism) * len(population)/100)
+        for i in range(number_elitsm):
+            new_population.append(cross_population[fit_cross_population[i][1]])
+
+        #the new population of the next generation
+        population = new_population.copy()
+        [print(calculate_fit(i,k, n)) for i in population]
+
+    print('\n')
+
+    return population
+
+#print(genetic1(['101001', '111000', '101010', '110110'], 30, 0, 0,50,20,2,3))
