@@ -91,7 +91,7 @@ def calculate_fit(chrom, k, n):
     restritions = [restrition1, restrition2, restrition3, restrition4]
 
     for i in restritions:
-        fit+=i(chrom)
+        fit-= abs(i(chrom))
     
     return fit
 
@@ -113,11 +113,15 @@ def calculate_fit(chrom, k, n):
 
 
 
-def genetic1(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, k, n):
+def genetic(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, k, n):
     if t_crossover == 0:
         cross = cross1
     else:
         cross = cross2
+
+    mean_values = []
+    max_values = []
+    min_values = []
 
     
     for i in range(n_iterations):
@@ -174,10 +178,21 @@ def genetic1(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_e
 
         #the new population of the next generation
         population = new_population.copy()
-        [print(calculate_fit(i,k, n)) for i in population]
+        fit_population = [calculate_fit(i, k, n) for i in population]
+        mean = sum([i for i in fit_population]) / len(population)
 
-    print('\n')
+        mean_values.append(mean)
+        min_fit = min(fit_population)
+        max_fit = max(fit_population)
+        min_values.append(min_fit)
+        max_values.append(max_fit)
+        
+        print('')
+        print("min fit: ", min_fit)
+        print("max fit: ", max_fit)
+        print("mean fit: ", mean)
 
-    return population
+
+    return mean_values, min_values, max_values
 
 #print(genetic1(['101001', '111000', '101010', '110110'], 30, 0, 0,50,20,2,3))

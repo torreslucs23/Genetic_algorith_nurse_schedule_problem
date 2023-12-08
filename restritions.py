@@ -19,7 +19,7 @@ def restrition1(m):
             if nurse[n_shift] == 1:
                 cont+=1
         if cont < 1:
-            fit += 1
+            fit -= 1
         elif cont > 3:
             fit -= 1
     return fit*-1
