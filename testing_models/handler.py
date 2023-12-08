@@ -2,25 +2,36 @@ from Generation import Generation
 
 def run_selection(has_weighted_reproduction, has_uniform_crossover, has_pair_reproduction, has_selection):
     
-    generations  = []
-
-    generations += [Generation(has_weighted_reproduction, has_uniform_crossover, has_pair_reproduction, has_selection)]
+    first_generation += Generation(
+                            has_weighted_reproduction, 
+                            has_uniform_crossover, 
+                            has_pair_reproduction, 
+                            has_selection, 
+                            is_first_generation=True
+                        )]
     
-    first_fittest = generations[0].fittest
+
+    general_fittest = [first_generation.fittest()]
+    general_fit     = [generation[0].avg_fit()]
 
     count_fitness_decrease      = 0
     count_fitness_repetitions   = 0
     count_small_fitness_changes = 0
 
+    current_generation = first_generation
     while(True):
 
-        previous_generation  = generations[-1]
+        previous_generation  = current_generation
 
-        current_generation   = previous_generation.get_next()
-        generations         += current_generation
+        current_generation   = current_generation.get_next()
 
-        previous_fittest     = previous_generation.fittest
-        current_fittest      = current_generation.fittest
+        previous_fittest     = previous_generation.fittest()
+
+        fit_data = current_generation.get_fit_data()
+        current_fittest, current_avg_fit = fit_data
+
+        general_fittest     += [current_fittest]
+        general_fit         += [current_avg_fit]
 
 
         if(current_fitness <= previous_fitness):
@@ -33,12 +44,12 @@ def run_selection(has_weighted_reproduction, has_uniform_crossover, has_pair_rep
         count_fitness_repetitions = generation.count(current_generation)
 
 
-        first_stop_condition    = count_fitness_decrease < 5
-        second_stop_condition   = count_small_fitness_change < 5
-        third_stop_condition    = count_fitness_repetitions < 3
+        first_condition    = count_fitness_decrease     < 5
+        second_condition   = count_small_fitness_change < 5
+        third_condition    = count_fitness_repetitions  < 3
 
-        if(first_stop_condition
-           or second_stop_condition
-           or third_stop_consition):
+        if(     not first_condition
+            or  not second_condition
+            or  not third_condition):
 
-            return (initial_fittest, current_fittest)
+            return (general_fittest, general_fit)
