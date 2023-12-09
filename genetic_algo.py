@@ -14,7 +14,19 @@ def generate_population(n_individual,k, n):
                 num = randint(0,1)
                 individual.append(str(num))
         population.append(''.join(individual))
-    print(population)
+    try:
+        file = open("output.txt", "a")
+
+        for individual in population:
+            file.write("\n")
+            file.write("[" + individual + "]\n")
+
+        file.close()
+        
+    except Exception as exc:
+        raise OSError("Something went wrong while writing" \
+                        "the file!") from exc
+
     return population
         
 
@@ -187,11 +199,19 @@ def genetic(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_el
         min_values.append(min_fit)
         max_values.append(max_fit)
         
-        print('')
-        print("min fit: ", min_fit)
-        print("max fit: ", max_fit)
-        print("mean fit: ", mean)
+        try:
+            file = open("output.txt", "a")
 
+            file.write("\n")
+            file.write("min fit: " + str(min_fit) + "\n")
+            file.write("max fit: " + str(max_fit) + "\n")
+            file.write("mean fit: " + str(mean) + "\n")
+
+            file.close()
+            
+        except Exception as exc:
+            raise OSError("Something went wrong while writing" \
+                            "the file!") from exc
 
     return mean_values, min_values, max_values
 
