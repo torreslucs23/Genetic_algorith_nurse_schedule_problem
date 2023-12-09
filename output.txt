@@ -1,801 +1,801 @@
 
 
-min fit: -56.8
-max fit: -40.2
-mean fit: -51.04200000000001
+min fit: -56.400000000000006
+max fit: -42.0
+mean fit: -51.809999999999974
 
-min fit: -55.2
-max fit: -40.2
-mean fit: -48.57000000000002
+min fit: -55.0
+max fit: -41.0
+mean fit: -49.806
 
-min fit: -52.6
+min fit: -53.4
+max fit: -39.0
+mean fit: -47.472
+
+min fit: -51.2
 max fit: -34.2
-mean fit: -45.80799999999999
+mean fit: -45.434
 
-min fit: -49.8
-max fit: -32.2
-mean fit: -43.28000000000003
+min fit: -49.4
+max fit: -34.4
+mean fit: -43.19
 
-min fit: -46.6
-max fit: -34.2
-mean fit: -41.31399999999999
+min fit: -47.0
+max fit: -33.8
+mean fit: -41.15999999999999
 
-min fit: -44.6
-max fit: -33.4
-mean fit: -39.42
+min fit: -44.2
+max fit: -32.4
+mean fit: -39.46000000000001
 
-min fit: -42.6
-max fit: -31.6
-mean fit: -37.424
+min fit: -42.2
+max fit: -30.0
+mean fit: -37.584
 
-min fit: -40.4
-max fit: -27.200000000000003
-mean fit: -36.129999999999995
+min fit: -41.8
+max fit: -26.0
+mean fit: -35.952000000000005
 
-min fit: -39.4
-max fit: -24.8
-mean fit: -34.431999999999995
+min fit: -38.6
+max fit: -26.0
+mean fit: -34.18400000000001
 
-min fit: -38.0
-max fit: -24.8
-mean fit: -32.864
+min fit: -37.4
+max fit: -25.0
+mean fit: -32.64
 
 min fit: -35.8
-max fit: -26.8
-mean fit: -31.156
+max fit: -25.0
+mean fit: -31.012000000000004
 
-min fit: -34.0
-max fit: -22.8
-mean fit: -29.42599999999999
+min fit: -33.4
+max fit: -25.0
+mean fit: -29.691999999999993
+
+min fit: -31.8
+max fit: -24.8
+mean fit: -28.694000000000003
 
 min fit: -32.0
+max fit: -22.8
+mean fit: -27.857999999999997
+
+min fit: -30.6
+max fit: -22.200000000000003
+mean fit: -26.916000000000004
+
+min fit: -28.8
 max fit: -21.8
-mean fit: -27.894000000000002
+mean fit: -25.539999999999996
 
-min fit: -30.200000000000003
-max fit: -21.8
-mean fit: -26.595999999999993
+min fit: -28.0
+max fit: -20.0
+mean fit: -24.597999999999992
 
-min fit: -28.6
-max fit: -18.8
-mean fit: -25.354000000000006
+min fit: -26.4
+max fit: -19.200000000000003
+mean fit: -23.535999999999998
 
-min fit: -27.8
-max fit: -18.0
-mean fit: -24.057999999999996
+min fit: -26.0
+max fit: -17.0
+mean fit: -22.604
 
-min fit: -27.200000000000003
-max fit: -16.8
-mean fit: -22.904000000000007
-
-min fit: -25.8
-max fit: -16.8
-mean fit: -21.952
-
-min fit: -25.0
-max fit: -15.400000000000002
-mean fit: -20.966000000000005
+min fit: -24.4
+max fit: -17.2
+mean fit: -21.866
 
 min fit: -23.4
-max fit: -14.200000000000001
-mean fit: -20.052000000000007
+max fit: -16.2
+mean fit: -20.887999999999998
 
-min fit: -22.8
-max fit: -14.200000000000001
-mean fit: -19.062
+min fit: -23.0
+max fit: -16.0
+mean fit: -20.012
 
-min fit: -21.200000000000003
+min fit: -22.4
+max fit: -15.0
+mean fit: -19.248000000000005
+
+min fit: -22.0
 max fit: -13.8
-mean fit: -18.278000000000002
+mean fit: -18.610000000000003
 
-min fit: -20.8
-max fit: -14.200000000000001
-mean fit: -17.698
+min fit: -20.6
+max fit: -13.0
+mean fit: -17.811999999999998
 
 min fit: -20.0
-max fit: -13.400000000000002
-mean fit: -17.258000000000003
+max fit: -12.0
+mean fit: -17.364000000000004
 
-min fit: -19.4
-max fit: -13.0
-mean fit: -16.602000000000004
+min fit: -19.6
+max fit: -11.8
+mean fit: -16.640000000000008
 
-min fit: -18.8
-max fit: -11.400000000000002
-mean fit: -16.157999999999994
-
-min fit: -18.200000000000003
-max fit: -12.400000000000002
-mean fit: -15.62999999999999
+min fit: -19.0
+max fit: -11.8
+mean fit: -15.84
 
 min fit: -18.0
-max fit: -12.0
-mean fit: -14.981999999999996
+max fit: -11.4
+mean fit: -15.036
 
-min fit: -17.200000000000003
-max fit: -11.8
-mean fit: -14.478
+min fit: -17.2
+max fit: -11.4
+mean fit: -14.413999999999989
 
-min fit: -16.8
+min fit: -16.4
 max fit: -10.0
-mean fit: -13.834000000000003
+mean fit: -13.748
 
-min fit: -16.200000000000003
+min fit: -16.0
 max fit: -10.0
-mean fit: -13.450000000000005
+mean fit: -13.204
 
-min fit: -15.200000000000001
-max fit: -9.400000000000002
-mean fit: -13.044
+min fit: -15.6
+max fit: -8.6
+mean fit: -12.636000000000003
 
-min fit: -15.200000000000001
-max fit: -9.200000000000001
-mean fit: -12.748000000000001
-
-min fit: -14.600000000000001
-max fit: -9.0
-mean fit: -12.206
-
-min fit: -14.400000000000002
-max fit: -8.8
-mean fit: -11.984000000000002
+min fit: -14.200000000000001
+max fit: -8.6
+mean fit: -11.979999999999997
 
 min fit: -14.0
-max fit: -9.0
-mean fit: -11.725999999999994
+max fit: -8.6
+mean fit: -11.585999999999997
 
-min fit: -13.600000000000001
-max fit: -8.600000000000001
-mean fit: -11.445999999999996
+min fit: -14.0
+max fit: -8.6
+mean fit: -11.396000000000004
 
-min fit: -13.200000000000003
-max fit: -7.2
-mean fit: -11.106
+min fit: -14.0
+max fit: -7.6
+mean fit: -10.915999999999999
 
-min fit: -13.000000000000002
-max fit: -7.4
-mean fit: -10.735999999999999
+min fit: -13.0
+max fit: -7.6
+mean fit: -10.568000000000001
 
 min fit: -12.8
-max fit: -7.2
-mean fit: -10.34
+max fit: -7.6
+mean fit: -10.162
 
-min fit: -12.200000000000001
-max fit: -7.2
-mean fit: -10.084000000000001
+min fit: -12.0
+max fit: -6.6
+mean fit: -9.656000000000002
 
-min fit: -11.600000000000001
-max fit: -7.2
-mean fit: -9.720000000000006
+min fit: -11.200000000000001
+max fit: -6.6
+mean fit: -9.262
 
-min fit: -11.400000000000002
+min fit: -11.2
 max fit: -7.2
-mean fit: -9.29
-
-min fit: -11.000000000000002
-max fit: -6.2
-mean fit: -9.02
+mean fit: -9.258
 
 min fit: -10.8
-max fit: -6.2
-mean fit: -8.737999999999998
+max fit: -7.0
+mean fit: -8.911999999999999
+
+min fit: -10.8
+max fit: -6.6
+mean fit: -8.885999999999997
 
 min fit: -10.600000000000001
-max fit: -5.4
-mean fit: -8.536
+max fit: -6.4
+mean fit: -8.714000000000004
 
 min fit: -10.600000000000001
-max fit: -5.4
-mean fit: -8.382000000000003
+max fit: -6.4
+mean fit: -8.496
 
-min fit: -10.600000000000001
-max fit: -6.0
-mean fit: -8.410000000000004
+min fit: -10.000000000000002
+max fit: -6.4
+mean fit: -8.258000000000001
 
-min fit: -10.0
-max fit: -6.0
-mean fit: -8.054
-
-min fit: -10.0
-max fit: -6.0
-mean fit: -7.868000000000002
-
-min fit: -10.2
-max fit: -6.0
-mean fit: -7.846
-
-min fit: -9.4
-max fit: -5.6000000000000005
-mean fit: -7.639999999999998
-
-min fit: -9.600000000000001
-max fit: -5.6000000000000005
-mean fit: -7.644000000000001
+min fit: -9.8
+max fit: -5.0
+mean fit: -7.914000000000001
 
 min fit: -9.6
-max fit: -5.8
-mean fit: -7.767999999999997
-
-min fit: -9.200000000000001
-max fit: -5.4
-mean fit: -7.678000000000003
-
-min fit: -9.4
-max fit: -5.4
-mean fit: -7.721999999999998
-
-min fit: -9.600000000000001
 max fit: -5.0
-mean fit: -7.527999999999997
-
-min fit: -9.2
-max fit: -5.4
-mean fit: -7.463999999999999
+mean fit: -7.688
 
 min fit: -9.200000000000001
-max fit: -5.4
-mean fit: -7.4319999999999995
+max fit: -5.0
+mean fit: -7.498000000000001
 
 min fit: -9.2
-max fit: -5.2
-mean fit: -7.207999999999999
-
-min fit: -8.600000000000001
-max fit: -5.2
-mean fit: -6.9719999999999995
-
-min fit: -8.600000000000001
-max fit: -5.2
-mean fit: -6.907999999999999
-
-min fit: -8.8
-max fit: -5.2
-mean fit: -7.001999999999998
+max fit: -5.200000000000001
+mean fit: -7.508000000000002
 
 min fit: -9.2
-max fit: -5.2
-mean fit: -6.968
+max fit: -5.200000000000001
+mean fit: -7.350000000000001
 
-min fit: -8.600000000000001
-max fit: -5.2
-mean fit: -6.7639999999999985
+min fit: -8.6
+max fit: -5.200000000000001
+mean fit: -7.066000000000002
 
-min fit: -8.4
+min fit: -8.6
 max fit: -5.2
-mean fit: -6.649999999999999
+mean fit: -6.850000000000002
 
 min fit: -8.2
 max fit: -5.0
-mean fit: -6.485999999999994
-
-min fit: -8.2
-max fit: -4.8
-mean fit: -6.527999999999997
+mean fit: -6.545999999999999
 
 min fit: -8.4
-max fit: -4.8
-mean fit: -6.551999999999996
-
-min fit: -8.8
-max fit: -4.8
-mean fit: -6.585999999999999
+max fit: -5.0
+mean fit: -6.403999999999994
 
 min fit: -8.4
-max fit: -4.8
-mean fit: -6.520000000000001
+max fit: -4.800000000000001
+mean fit: -6.237999999999995
 
-min fit: -8.2
-max fit: -4.8
-mean fit: -6.336000000000001
-
-min fit: -8.2
-max fit: -4.8
-mean fit: -6.161999999999999
-
-min fit: -8.0
-max fit: -4.8
-mean fit: -6.028
+min fit: -7.6
+max fit: -4.800000000000001
+mean fit: -6.105999999999995
 
 min fit: -7.800000000000001
-max fit: -4.8
-mean fit: -5.991999999999998
-
-min fit: -7.8
-max fit: -4.8
-mean fit: -5.952000000000001
-
-min fit: -8.0
-max fit: -4.6
-mean fit: -6.131999999999997
-
-min fit: -8.0
-max fit: -4.6
-mean fit: -6.097999999999998
-
-min fit: -8.0
-max fit: -4.6
-mean fit: -6.055999999999998
-
-min fit: -7.600000000000001
-max fit: -4.6
-mean fit: -5.972000000000001
-
-min fit: -8.0
-max fit: -4.6
-mean fit: -6.103999999999998
-
-min fit: -8.0
-max fit: -4.6
-mean fit: -5.894000000000002
-
-min fit: -8.2
-max fit: -4.6
-mean fit: -5.966000000000001
-
-min fit: -8.0
-max fit: -3.9999999999999996
-mean fit: -5.927999999999997
-
-min fit: -7.6000000000000005
-max fit: -3.9999999999999996
-mean fit: -5.7920000000000025
+max fit: -4.800000000000001
+mean fit: -6.075999999999998
 
 min fit: -7.800000000000001
+max fit: -4.800000000000001
+mean fit: -5.9099999999999975
+
+min fit: -7.2
+max fit: -4.800000000000001
+mean fit: -5.765999999999999
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.877999999999999
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.857999999999995
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.809999999999998
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.799999999999998
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.819999999999998
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.723999999999997
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.799999999999995
+
+min fit: -7.200000000000001
+max fit: -4.800000000000001
+mean fit: -5.693999999999996
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.731999999999996
+
+min fit: -7.4
+max fit: -4.800000000000001
+mean fit: -5.727999999999996
+
+min fit: -7.200000000000001
+max fit: -4.800000000000001
+mean fit: -5.627999999999998
+
+min fit: -7.200000000000001
+max fit: -4.800000000000001
+mean fit: -5.751999999999999
+
+min fit: -7.200000000000001
+max fit: -4.800000000000001
+mean fit: -5.687999999999999
+
+min fit: -7.2
+max fit: -4.800000000000001
+mean fit: -5.756000000000001
+
+min fit: -7.200000000000001
 max fit: -4.6
-mean fit: -5.696000000000001
+mean fit: -5.658
+
+min fit: -7.4
+max fit: -4.6
+mean fit: -5.6320000000000014
+
+min fit: -7.200000000000001
+max fit: -4.6
+mean fit: -5.612
+
+min fit: -7.0
+max fit: -4.6
+mean fit: -5.503999999999999
+
+min fit: -7.4
+max fit: -4.6
+mean fit: -5.518
 
 min fit: -7.2
 max fit: -4.6
-mean fit: -5.624000000000006
+mean fit: -5.638000000000002
 
-min fit: -7.199999999999999
+min fit: -7.2
 max fit: -4.6
-mean fit: -5.754000000000001
+mean fit: -5.612
+
+min fit: -7.200000000000001
+max fit: -4.6
+mean fit: -5.614000000000003
+
+min fit: -7.0
+max fit: -3.6
+mean fit: -5.562
+
+min fit: -7.2
+max fit: -4.6
+mean fit: -5.534000000000001
+
+min fit: -7.000000000000001
+max fit: -4.800000000000001
+mean fit: -5.580000000000001
 
 min fit: -7.000000000000001
 max fit: -4.6
-mean fit: -5.604000000000003
+mean fit: -5.518000000000002
 
-min fit: -7.2
+min fit: -7.000000000000001
 max fit: -4.6
-mean fit: -5.652000000000005
-
-min fit: -7.0
-max fit: -4.6
-mean fit: -5.452000000000002
+mean fit: -5.498000000000002
 
 min fit: -7.0
 max fit: -4.6
-mean fit: -5.408
+mean fit: -5.432000000000001
 
 min fit: -7.0
 max fit: -4.6
-mean fit: -5.274000000000001
-
-min fit: -7.0
-max fit: -4.6
-mean fit: -5.384000000000003
-
-min fit: -7.0
-max fit: -3.9999999999999996
-mean fit: -5.370000000000002
-
-min fit: -7.2
-max fit: -3.9999999999999996
-mean fit: -5.438000000000005
-
-min fit: -7.2
-max fit: -3.9999999999999996
-mean fit: -5.374000000000004
-
-min fit: -7.2
-max fit: -3.9999999999999996
-mean fit: -5.414000000000005
-
-min fit: -7.199999999999999
-max fit: -3.9999999999999996
-mean fit: -5.432000000000004
-
-min fit: -7.0
-max fit: -3.9999999999999996
-mean fit: -5.388000000000004
+mean fit: -5.515999999999999
 
 min fit: -7.2
 max fit: -3.8000000000000003
-mean fit: -5.510000000000006
+mean fit: -5.568
 
-min fit: -7.2
-max fit: -3.8000000000000003
-mean fit: -5.374000000000006
+min fit: -7.0
+max fit: -3.6
+mean fit: -5.424000000000001
 
 min fit: -7.0
 max fit: -3.8000000000000003
-mean fit: -5.244000000000005
+mean fit: -5.318000000000001
 
 min fit: -7.0
 max fit: -3.8000000000000003
-mean fit: -5.272000000000005
+mean fit: -5.390000000000002
 
 min fit: -7.0
 max fit: -3.8000000000000003
-mean fit: -5.210000000000003
+mean fit: -5.362
 
 min fit: -7.0
 max fit: -3.8000000000000003
-mean fit: -5.282000000000004
+mean fit: -5.314000000000002
+
+min fit: -7.0
+max fit: -3.8000000000000003
+mean fit: -5.274000000000002
+
+min fit: -7.0
+max fit: -4.0
+mean fit: -5.360000000000002
+
+min fit: -7.0
+max fit: -3.8000000000000003
+mean fit: -5.286000000000004
+
+min fit: -7.0
+max fit: -3.8000000000000003
+mean fit: -5.400000000000002
+
+min fit: -7.0
+max fit: -3.8000000000000003
+mean fit: -5.412000000000003
+
+min fit: -7.0
+max fit: -4.0
+mean fit: -5.508000000000003
+
+min fit: -7.0
+max fit: -3.6
+mean fit: -5.490000000000004
+
+min fit: -7.0
+max fit: -3.4000000000000004
+mean fit: -5.244000000000002
+
+min fit: -7.0
+max fit: -3.6
+mean fit: -5.350000000000002
+
+min fit: -7.0
+max fit: -3.8000000000000003
+mean fit: -5.298000000000002
+
+min fit: -6.6
+max fit: -3.6
+mean fit: -5.054000000000003
+
+min fit: -6.6
+max fit: -3.6
+mean fit: -4.970000000000002
+
+min fit: -6.4
+max fit: -3.6
+mean fit: -4.980000000000001
 
 min fit: -6.800000000000001
 max fit: -3.8000000000000003
-mean fit: -5.2020000000000035
+mean fit: -5.074000000000002
+
+min fit: -7.0
+max fit: -3.6
+mean fit: -5.096000000000004
 
 min fit: -6.8
-max fit: -3.9999999999999996
-mean fit: -5.224000000000002
+max fit: -3.8000000000000003
+mean fit: -5.072000000000002
 
 min fit: -6.800000000000001
-max fit: -3.9999999999999996
-mean fit: -5.178000000000003
-
-min fit: -7.0
-max fit: -3.9999999999999996
-mean fit: -5.244000000000003
-
-min fit: -7.2
-max fit: -3.8000000000000003
-mean fit: -5.214000000000003
-
-min fit: -7.0
-max fit: -3.7999999999999994
-mean fit: -5.254000000000004
-
-min fit: -7.0
-max fit: -3.5999999999999996
-mean fit: -5.230000000000002
-
-min fit: -6.799999999999999
-max fit: -3.8000000000000003
-mean fit: -5.142000000000004
+max fit: -3.6
+mean fit: -4.926000000000001
 
 min fit: -6.6
-max fit: -3.7999999999999994
-mean fit: -5.092000000000002
-
-min fit: -7.0
-max fit: -3.7999999999999994
-mean fit: -5.100000000000002
-
-min fit: -7.0
-max fit: -3.5999999999999996
-mean fit: -4.964000000000002
-
-min fit: -7.0
-max fit: -3.7999999999999994
-mean fit: -4.992000000000002
+max fit: -3.6
+mean fit: -4.8180000000000005
 
 min fit: -6.4
-max fit: -3.7999999999999994
-mean fit: -4.832
+max fit: -3.6
+mean fit: -4.729999999999999
 
-min fit: -6.4
-max fit: -3.7999999999999994
-mean fit: -4.6819999999999995
-
-min fit: -6.2
-max fit: -3.9999999999999996
-mean fit: -4.634000000000001
-
-min fit: -6.2
-max fit: -3.9999999999999996
-mean fit: -4.6339999999999995
-
-min fit: -6.4
-max fit: -3.9999999999999996
-mean fit: -4.697999999999999
-
-min fit: -6.2
-max fit: -3.9999999999999996
-mean fit: -4.745999999999998
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.6019999999999985
-
-min fit: -6.4
-max fit: -3.7999999999999994
-mean fit: -4.6659999999999995
-
-min fit: -6.2
-max fit: -3.5999999999999996
-mean fit: -4.592
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.606000000000001
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.590000000000001
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.5280000000000005
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.564
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.598000000000001
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.517999999999999
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.534
-
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.5360000000000005
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.522
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.494000000000001
-
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.499999999999999
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.54
-
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.498
-
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.522
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.563999999999999
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.745999999999999
-
-min fit: -7.0
-max fit: -3.7999999999999994
-mean fit: -4.724
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.662
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.656
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.5760000000000005
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.830000000000001
+min fit: -6.6000000000000005
+max fit: -3.6
+mean fit: -4.754000000000001
 
 min fit: -6.6
-max fit: -3.7999999999999994
-mean fit: -4.792000000000001
-
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.73
-
-min fit: -6.2
-max fit: -3.7999999999999994
+max fit: -3.6
 mean fit: -4.63
 
-min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.648
+min fit: -6.4
+max fit: -3.6
+mean fit: -4.789999999999999
+
+min fit: -6.6
+max fit: -3.6
+mean fit: -4.667999999999999
+
+min fit: -6.200000000000001
+max fit: -3.6
+mean fit: -4.558000000000002
+
+min fit: -6.4
+max fit: -3.6
+mean fit: -4.685999999999999
 
 min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.572
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.48
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.460000000000001
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.376000000000002
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.440000000000001
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.526000000000002
-
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.488000000000001
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.504000000000002
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.442000000000002
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.472000000000002
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.4440000000000035
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.566000000000003
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.384000000000004
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.288000000000006
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.340000000000004
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.524000000000003
-
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.506000000000004
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.456000000000003
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.474000000000003
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.512000000000003
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.358000000000005
+max fit: -3.6
+mean fit: -4.61
 
 min fit: -6.2
-max fit: -3.7999999999999994
-mean fit: -4.432000000000003
+max fit: -3.6
+mean fit: -4.504
+
+min fit: -6.2
+max fit: -3.6
+mean fit: -4.5200000000000005
+
+min fit: -6.200000000000001
+max fit: -3.6
+mean fit: -4.483999999999998
 
 min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.274000000000005
+max fit: -3.6
+mean fit: -4.452000000000001
 
-min fit: -5.799999999999999
-max fit: -3.7999999999999994
-mean fit: -4.336000000000004
+min fit: -6.200000000000001
+max fit: -3.6
+mean fit: -4.613999999999999
 
-min fit: -6.199999999999999
-max fit: -3.7999999999999994
-mean fit: -4.378000000000004
+min fit: -6.2
+max fit: -3.6
+mean fit: -4.6160000000000005
 
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.294000000000005
-
-min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.314000000000004
+min fit: -6.2
+max fit: -3.6
+mean fit: -4.440000000000002
 
 min fit: -6.0
-max fit: -3.7999999999999994
-mean fit: -4.494000000000003
+max fit: -3.4000000000000004
+mean fit: -4.456
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.338000000000002
 
 min fit: -6.0
-max fit: -3.5999999999999996
+max fit: -3.4000000000000004
+mean fit: -4.360000000000003
+
+min fit: -6.0
+max fit: -3.4000000000000004
+mean fit: -4.402000000000002
+
+min fit: -6.0
+max fit: -3.4000000000000004
+mean fit: -4.444000000000002
+
+min fit: -6.2
+max fit: -3.4000000000000004
+mean fit: -4.462000000000001
+
+min fit: -6.2
+max fit: -3.4000000000000004
+mean fit: -4.432000000000001
+
+min fit: -6.2
+max fit: -3.4000000000000004
+mean fit: -4.492000000000003
+
+min fit: -6.2
+max fit: -3.4000000000000004
+mean fit: -4.3640000000000025
+
+min fit: -6.0
+max fit: -3.4000000000000004
+mean fit: -4.330000000000002
+
+min fit: -6.0
+max fit: -3.4000000000000004
+mean fit: -4.240000000000004
+
+min fit: -6.0
+max fit: -3.4000000000000004
+mean fit: -4.274000000000004
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.322000000000004
+
+min fit: -5.800000000000001
+max fit: -3.6
 mean fit: -4.438000000000003
 
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.322000000000005
+min fit: -5.800000000000001
+max fit: -3.6
+mean fit: -4.338000000000003
 
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.510000000000003
+min fit: -5.800000000000001
+max fit: -3.6
+mean fit: -4.244000000000003
 
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.272000000000006
+min fit: -5.800000000000001
+max fit: -3.6
+mean fit: -4.170000000000004
 
-min fit: -5.799999999999999
-max fit: -3.5999999999999996
-mean fit: -4.114000000000005
+min fit: -6.200000000000001
+max fit: -3.4000000000000004
+mean fit: -4.138000000000003
 
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.194000000000006
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.114000000000003
 
-min fit: -5.799999999999999
-max fit: -3.5999999999999996
-mean fit: -4.162000000000006
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.118000000000003
 
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.344000000000004
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.140000000000003
 
-min fit: -5.799999999999999
-max fit: -3.5999999999999996
-mean fit: -4.316000000000003
-
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.312000000000004
-
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.244000000000005
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.228000000000003
 
 min fit: -5.6
-max fit: -3.5999999999999996
-mean fit: -4.170000000000006
-
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.380000000000005
-
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.386000000000005
-
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.252000000000006
+max fit: -3.4000000000000004
+mean fit: -4.146000000000002
 
 min fit: -5.8
-max fit: -3.5999999999999996
-mean fit: -4.278000000000005
+max fit: -3.4000000000000004
+mean fit: -4.132000000000002
 
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.330000000000004
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.102000000000001
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.200000000000004
+
+min fit: -5.800000000000001
+max fit: -3.6
+mean fit: -4.324000000000004
 
 min fit: -5.8
-max fit: -3.5999999999999996
-mean fit: -4.286000000000004
-
-min fit: -6.0
-max fit: -3.5999999999999996
-mean fit: -4.2160000000000055
+max fit: -3.4000000000000004
+mean fit: -4.176000000000001
 
 min fit: -5.8
-max fit: -3.5999999999999996
-mean fit: -4.182000000000005
+max fit: -3.4000000000000004
+mean fit: -4.108000000000002
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.114000000000002
+
+min fit: -5.6000000000000005
+max fit: -3.4000000000000004
+mean fit: -4.126000000000003
+
+min fit: -5.8
+max fit: -3.4000000000000004
+mean fit: -4.162000000000003
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.120000000000003
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.0820000000000025
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.010000000000002
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.002000000000001
+
+min fit: -4.800000000000001
+max fit: -3.4000000000000004
+mean fit: -3.962000000000001
+
+min fit: -4.800000000000001
+max fit: -3.4000000000000004
+mean fit: -3.9940000000000038
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.054000000000003
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.254000000000002
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.310000000000004
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.3980000000000015
+
+min fit: -6.6
+max fit: -3.4000000000000004
+mean fit: -4.238000000000002
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.134000000000003
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.212000000000003
+
+min fit: -5.8
+max fit: -3.4000000000000004
+mean fit: -4.206000000000002
+
+min fit: -5.8
+max fit: -3.4000000000000004
+mean fit: -4.056000000000003
+
+min fit: -5.6000000000000005
+max fit: -3.4000000000000004
+mean fit: -4.138000000000003
+
+min fit: -5.6000000000000005
+max fit: -3.4000000000000004
+mean fit: -4.1200000000000045
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.296000000000004
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.246000000000004
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.270000000000002
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.158000000000002
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.170000000000003
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.012000000000001
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.9900000000000015
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.194000000000004
+
+min fit: -5.6000000000000005
+max fit: -3.4000000000000004
+mean fit: -4.150000000000002
+
+min fit: -5.6000000000000005
+max fit: -3.4000000000000004
+mean fit: -3.976000000000001
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.0180000000000025
+
+min fit: -5.8
+max fit: -3.4000000000000004
+mean fit: -4.098000000000003
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.082000000000003
+
+min fit: -5.800000000000001
+max fit: -3.4000000000000004
+mean fit: -4.070000000000005
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.873999999999999
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.9260000000000024
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.836000000000002
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.9160000000000026
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -4.018000000000003
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.988000000000004
+
+min fit: -5.6
+max fit: -3.4000000000000004
+mean fit: -3.9700000000000024

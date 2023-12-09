@@ -28,11 +28,9 @@ except Exception as exc:
                     "the file!") from exc
 
 n_individual, k, n = [int(i) for i in first_line]
-#instance = generate_population(21, 10, 21)
 instance = generate_population(n_individual, k, n)
 
-n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, k, n = [int(i) for i in second_line]
-#50, 0, 0, 100, 25, 10, 21
+n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism = [int(i) for i in second_line]
 mean_f, min_f, max_f = (genetic(instance, n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, k, n))
 
 # Generate an array of indices for the x-axis
