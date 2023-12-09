@@ -14,7 +14,6 @@ def generate_population(n_individual,k, n):
                 num = randint(0,1)
                 individual.append(str(num))
         population.append(''.join(individual))
-    print(population)
     return population
         
 
@@ -55,14 +54,14 @@ def mutation1(n_mutation, population):
 
 # function cross 1 take half of the chromossome and switch wiht another chrom
 def cross1(chrom1, chrom2):
-    half = len(chrom1) // 2
+    cross_point = randint(1, len(chrom1))
     new_chrom1 = []
     new_chrom2 = []
-    for i in range(0, half):
+    for i in range(0, cross_point):
         new_chrom1.append(chrom2[i])
         new_chrom2.append(chrom1[i])
 
-    for i in range(half, len(chrom1)):
+    for i in range(cross_point, len(chrom1)):
         new_chrom1.append(chrom1[i])
         new_chrom2.append(chrom2[i])
     return ''.join(new_chrom1), ''.join(new_chrom2)
@@ -114,11 +113,13 @@ def calculate_fit(chrom, k, n):
 
 
 def genetic(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_elitism, k, n):
+    #select type of cross
     if t_crossover == 0:
         cross = cross1
     else:
         cross = cross2
 
+    
     mean_values = []
     max_values = []
     min_values = []

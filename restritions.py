@@ -10,8 +10,7 @@
 #   - -1 fit for non nurse in a shift
 def restrition1(m):
     fit = 0
-
-
+    
     for n_shift in range(len(m[0])):
         cont = 0
 

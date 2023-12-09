@@ -1,5 +1,4 @@
 import pandas as pd
-from main import *
 from genetic_algo import *
 
 
@@ -8,8 +7,8 @@ import numpy as np
 
 # Assume that the genetic function returns numpy arrays
 # Make sure to replace this with your own data
-instance = generate_population(21, 10, 21)
-mean_f, min_f, max_f = genetic(instance, 50, 0, 0, 100, 25, 10, 21)
+instance = generate_population(1000, 10, 21)
+mean_f, min_f, max_f = genetic(instance, 10, 1, 1, 1000, 10, 10, 21)
 
 # Generate an array of indices for the x-axis
 indices = np.arange(len(mean_f))
