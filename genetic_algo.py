@@ -124,6 +124,17 @@ def genetic(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_el
     max_values = []
     min_values = []
 
+    try:
+        file = open("output.txt", "w")
+
+        file.write("\n")
+
+    except Exception as exc:
+        raise OSError("Something went wrong while writing" \
+                        "the file!") from exc
+    finally:
+        file.close()
+
     
     for i in range(n_iterations):
         cross_population = []
@@ -187,11 +198,13 @@ def genetic(population, n_mutation, t_crossover,  t_mutation, n_iterations, n_el
         max_fit = max(fit_population)
         min_values.append(min_fit)
         max_values.append(max_fit)
-        
+
         print('')
         print("min fit: ", min_fit)
         print("max fit: ", max_fit)
         print("mean fit: ", mean)
+        
+        
 
 
     return mean_values, min_values, max_values
